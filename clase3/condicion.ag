@@ -1,0 +1,60 @@
+# # una condición 
+# edad = entero(ingresar("Edad: "))
+
+# si edad >= 18 y edad <= 130{
+#     imprimir("eres mayor de edad")
+# } sino {
+#     imprimir("Eres menor de edad ")
+# }
+
+# # multiple condición 
+# si no (edad >= 18 y edad <= 130){
+#     imprimir("eres mayor de edad")
+# } sino si edad < 18 y edad >=0   {
+#     imprimir("Eres menor de edad ")
+# } sino si edad < 0 {
+#     imprimir("No existes aún")
+# } sino si edad > 130 {
+#     imprimir("Ya dejaste este mundo")
+# } sino {
+#     imprimir("Dato invalido")
+# }
+
+
+# si edad == 20{
+#     imprimir("Tiene mi edad ")
+# } sino {
+#     imprimir("No eres de mi edad")
+# }
+
+# correo = ingresar("Ingrese correo: ")
+# si correo == "emer@gmail.com"{
+#     imprimir("Bienvenido al sistema")
+# } sino {
+#     imprimir("Acceso denegado")
+# }
+
+# si edad != 20 {
+#     imprimir("No eres de mi edad ")
+# } sino {
+#     imprimir("Eres de mi edad ")
+# }
+
+
+# si edad > 18{
+#     imprimir("mayor ")
+#     si edad == 10 {
+#         imprimir("Tienes 10 ")
+#     } sino {
+#         imprimir("no tienes 10")
+#     }
+# } sino {
+#     si edad < 13{
+#         imprimir("eres pre adolescente")
+#     } sino {
+#         imprimir("No eres adolescente")
+#     }
+# }
+
+nombre = "emerson"
+imprimir(longitud(nombre))

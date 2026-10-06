@@ -1,0 +1,54 @@
+
+# como se imprime en águila
+# imprimir("hola mundo")
+# imprimir("mi nombre", "es", "emerson")
+# declarando variables 
+nombre_apellido = "emerson"  
+edad = 20
+precio = 10.5
+estudias = verdadero 
+imprimir(tipo(nombre))
+imprimir(tipo(edad))
+imprimir(tipo(precio))
+imprimir(tipo(estudias))
+
+# # variables con datos dinamicos
+Pais = ingresar("Ingrese su país: ")
+imprimir(tipo(Pais))
+
+# # interpolación 
+# imprimir(a"Mi país es: {pais} ") 
+
+# # ingresando numeros
+# dato1 = entero(ingresar("Ingrese un número: "))
+# imprimir(a"mi dato númerico es: {dato1}  ")
+
+# operaciones matematicas
+# datos de entrada
+a = ingresar("Ingrese un número: ")
+b = ingresar("Ingrese otro número: ")
+# procesando los datos 
+sumar = a + b
+restar = a - b
+division_exacta = a / b 
+division_entera = a // b
+multiplicacion = a * b
+potencia = a ** b
+resto_division = a % b
+
+# salida de datos 
+imprimir(a"La suma es: {sumar} ")
+imprimir(a"La resta es: {restar} ")
+imprimir(a"La división exacta es: {division_exacta} ")
+imprimir(a"La división entera es: {division_entera} ")
+imprimir(a"La multiplicación es: {multiplicacion} ")
+imprimir(a"La potencia es: {potencia} ")
+imprimir(a"El resto de la divisón: {resto_division} ")
+
+PI = 3.1416
+imprimir(PI)
+r = 10
+r = 20
+imprimir(r)
+
+imprimir(5 == 5)

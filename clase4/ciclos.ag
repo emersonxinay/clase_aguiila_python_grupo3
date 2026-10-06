@@ -1,0 +1,53 @@
+
+# # ciclos con mientras 
+# # de formar directa de ciclo infinito
+# mientras verdadero{
+#     imprimir("Bienvenido al ciclo")
+# }
+
+# poniendo un inicio y un limite 
+inicio = 0
+
+mientras inicio < 5{
+    imprimir(a"conteo en: {inicio} ")
+    inicio = inicio + 1
+}
+
+
+# ciclo para ingresar correo válido
+correo = ingresar("Correo: ")
+mientras correo != "emer@gmail.com"{
+    correo = ingresar("Correo: ")
+}
+imprimir("Correo válido")
+
+# acumulador
+contador = 1
+suma = 0 
+mientras contador <= 3{
+    suma = suma + contador 
+    contador = contador + 1
+}
+imprimir(a"la suma total es: {suma}")
+
+# ciclos con para y rango 
+# rango con 1 solo argumento
+para x en rango(5){
+    imprimir(a"conteo en: {x}")
+}  
+# rango con 2 argumentos 
+para c en rango(0, 13){
+    imprimir(a" 5 x {c} = {c*5} ")
+}
+
+# rango con 3 argumentos 
+para b en rango(1, 10, 2 ) {
+    imprimir(b)
+}
+
+# bucles anidados 
+para k en rango(0, 2 ){
+    para w en rango(0, 3) {
+        imprimir(w, k)
+    }
+}

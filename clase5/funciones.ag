@@ -1,0 +1,20 @@
+
+funcion sumar(a, b){
+    suma = a+b
+    retornar suma
+}
+
+# invocando a las funciones 
+imprimir(sumar(4, 5))
+# declrando en una variable
+resultado = sumar(30, 40)
+imprimir(resultado)
+
+# calcular el area de un triangulo
+# area = (base x altura)/2
+funcion area_triangulo(b, a){
+    area = (b*a)/2
+    retornar area
+}
+resultado = area_triangulo(10.5, 20.6)
+imprimir(resultado)
